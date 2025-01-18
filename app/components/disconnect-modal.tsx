@@ -3,7 +3,6 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 import { X } from "lucide-react";
-import { useDisconnect } from "@starknet-react/core";
 import { useLottery } from "../contexts/LotteryContext";
 
 interface DisconnectWalletModalProps {
